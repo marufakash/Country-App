@@ -1,0 +1,42 @@
+.home{
+    color: white;
+    min-height: 100vh;
+    background-color: #333;
+}
+.heading{
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+}
+.country{
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #222;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 1s;
+}
+.country:hover{
+    transform: scale(1.1);
+}
+.country img{
+    width: 250px;
+}
+.country h3{
+    padding: 5px 0;
+    font-weight: 500;
+}
+.country button{
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    background-color: orange;
+}
