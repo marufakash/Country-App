@@ -40,3 +40,21 @@
     font-size: 17px;
     background-color: orange;
 }
+.search{
+    padding: 20px 0;
+    text-align: center;
+}
+.search label{
+    font-size: 19px;
+    font-weight: 600;
+}
+.search input{
+    padding: 5px 10px;
+    border: 1px solid orange;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 400px;
+}
